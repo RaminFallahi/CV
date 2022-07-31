@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3>My Contact Details</h3>
+    <p>Raamin.fallahi@gmail.com</p>
+    <p>16475077785</p>
+    <hr>
+    <form class="" action="mailto:raamin.fallahi@gmail.com" method="post" enctype="text/plain"><!-- Form tag AND IT NEEDS LABEL AND INPUT TO HAVE FUNCTION -->
+      <!-- NOTE: action = do something == email it to the specific email address -->
+      <!-- NOTE: enctype we add this into our form BECAUSE before this some words which was related to the <meta charset="utf-8" /> was added into the email -->
+      <label for="">Your Name:</label>
+      <input type="text" name="yourName" value=""><!-- THERE ARE TONS OF INPUT TYPES JUST SEARCH INPUT IN MDN-->
+      <br><!-- NOTE: we changed all name="" to the intended specific value such as your name, your message, your student number and etc. BECAUSE all these entered inputes would be shown into the email-->
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value="">
+      <br>
+      <label>Your Message:</label>
+      <br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><!-- rows and cols are the size of rows and colums of the text area  -->
+      <br>
+      <input type="submit" name=""""><!-- SUBMIT CREATS BOTTOM-->
+    </form>
+  </body>
+</html>
